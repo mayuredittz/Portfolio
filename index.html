@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayur Baraiya | Portfolio</title>
+    <title>Mayuredittz | Videographer & Editor Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -14,121 +14,119 @@
         .hero-bg { background-image: radial-gradient(circle at 2px 2px, #1e293b 1px, transparent 0); background-size: 30px 30px; }
         .btn-gradient { background: linear-gradient(to right, #4f46e5, #9333ea); transition: all 0.3s ease; }
         .btn-gradient:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -5px rgba(147, 51, 234, 0.5); }
+        .logo-text { background: linear-gradient(to right, #fff, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
 <body>
 
     <header class="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-black text-white">MB<span class="text-indigo-500">.</span></a>
+            <a href="#" class="text-2xl font-black tracking-tighter logo-text">MAYUREDITTZ<span class="text-indigo-500">.</span></a>
             <nav class="hidden md:flex space-x-8 items-center font-medium">
-                <a href="#work" class="hover:text-indigo-400">Work</a>
-                <a href="#thumbnails" class="hover:text-indigo-400">Thumbnails</a>
-                <a href="#contact" class="btn-gradient px-5 py-2 rounded-full text-white text-sm">Let's Talk</a>
+                <a href="#work" class="hover:text-indigo-400 transition">Work</a>
+                <a href="#thumbnails" class="hover:text-indigo-400 transition">Thumbnails</a>
+                <a href="#contact" class="btn-gradient px-6 py-2 rounded-full text-white text-sm font-bold">Hire Me</a>
             </nav>
         </div>
     </header>
 
     <main class="pt-20">
-        <section class="hero-bg py-20 text-center" data-aos="zoom-in">
-            <h1 class="text-5xl md:text-7xl font-black text-white mb-6">Capturing <span class="text-indigo-500">Stories.</span></h1>
-            <p class="text-slate-400 max-w-xl mx-auto mb-8">Professional Videographer & Editor specialized in high-impact social media content.</p>
-            <a href="#work" class="btn-gradient px-8 py-3 rounded-lg font-bold text-white">View My Work</a>
+        <section class="hero-bg py-24 text-center" data-aos="zoom-in">
+            <span class="px-4 py-1 bg-indigo-500/10 text-indigo-400 rounded-full text-xs font-bold uppercase tracking-widest mb-4 inline-block">Visual Storyteller</span>
+            <h1 class="text-5xl md:text-8xl font-black text-white mb-6 leading-tight">MAYUR<br><span class="text-indigo-500 text-outline">EDITTZ</span></h1>
+            <p class="text-slate-400 max-w-xl mx-auto mb-10 text-lg">Bhavnagar-based Videographer & Editor. Crafting cinematic experiences for brands and creators.</p>
+            <div class="flex justify-center gap-4">
+                <a href="#work" class="btn-gradient px-8 py-4 rounded-xl font-bold text-white shadow-lg">View Portfolio</a>
+            </div>
         </section>
 
         <section id="work" class="py-20 bg-slate-950">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl font-black text-white mb-10 text-center">Selected Reels</h2>
+                <div class="flex items-center justify-between mb-12">
+                    <h2 class="text-3xl font-black text-white">Selected Reels</h2>
+                    <div class="h-px flex-1 bg-slate-800 ml-6"></div>
+                </div>
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
-                    
                     <div class="group cursor-pointer" onclick="openModal('reel_1.mp4', 'vertical')" data-aos="fade-up">
-                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
-                            <img src="reel_1_thumbnail.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+1'">
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
-                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+                            <img src="reel_1_thumbnail.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" onerror="this.src='https://placehold.co/400x711/1e293b/fff?text=Reel+1'">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+                                <i data-lucide="play-circle" class="w-14 h-14 text-white"></i>
                             </div>
                         </div>
-                        <p class="mt-3 text-sm font-bold text-white text-center">Shubhlaxmi Jewellers</p>
+                        <p class="mt-4 text-xs font-bold text-slate-400 uppercase tracking-widest text-center">Shubhlaxmi Jewellers</p>
                     </div>
-
                     <div class="group cursor-pointer" onclick="openModal('reel_2.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="100">
-                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
-                            <img src="reel_2_thumbnail.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+2'">
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
-                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
-                            </div>
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+                            <img src="reel_2_thumbnail.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" onerror="this.src='https://placehold.co/400x711/1e293b/fff?text=Reel+2'">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition"><i data-lucide="play-circle" class="w-14 h-14 text-white"></i></div>
                         </div>
-                        <p class="mt-3 text-sm font-bold text-white text-center">M.D. Jewellers</p>
+                        <p class="mt-4 text-xs font-bold text-slate-400 uppercase tracking-widest text-center">M.D. Jewellers</p>
                     </div>
-
                     <div class="group cursor-pointer" onclick="openModal('reel_3.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="200">
-                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
-                            <img src="reel_3_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+3'">
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
-                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
-                            </div>
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+                            <img src="reel_3_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" onerror="this.src='https://placehold.co/400x711/1e293b/fff?text=Wedding'">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition"><i data-lucide="play-circle" class="w-14 h-14 text-white"></i></div>
                         </div>
-                        <p class="mt-3 text-sm font-bold text-white text-center">Wedding Highlight</p>
+                        <p class="mt-4 text-xs font-bold text-slate-400 uppercase tracking-widest text-center">Wedding Highlight</p>
                     </div>
-
                     <div class="group cursor-pointer" onclick="openModal('reel_4.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="300">
-                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
-                            <img src="reel_4_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+4'">
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
-                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
-                            </div>
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+                            <img src="reel_4_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" onerror="this.src='https://placehold.co/400x711/1e293b/fff?text=Car'">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition"><i data-lucide="play-circle" class="w-14 h-14 text-white"></i></div>
                         </div>
-                        <p class="mt-3 text-sm font-bold text-white text-center">Car Delivery</p>
+                        <p class="mt-4 text-xs font-bold text-slate-400 uppercase tracking-widest text-center">Car Delivery</p>
                     </div>
-
                     <div class="group cursor-pointer" onclick="openModal('reel_5.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="400">
-                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
-                            <img src="reel_5_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+5'">
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
-                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
-                            </div>
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+                            <img src="reel_5_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" onerror="this.src='https://placehold.co/400x711/1e293b/fff?text=Fashion'">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition"><i data-lucide="play-circle" class="w-14 h-14 text-white"></i></div>
                         </div>
-                        <p class="mt-3 text-sm font-bold text-white text-center">Event Highlights</p>
+                        <p class="mt-4 text-xs font-bold text-slate-400 uppercase tracking-widest text-center">Event Highlights</p>
                     </div>
-
                 </div>
             </div>
         </section>
 
         <section class="py-20 bg-slate-900">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl font-black text-white mb-10 text-center">Featured Projects</h2>
-                <div class="grid md:grid-cols-2 gap-8">
-                    
+                <h2 class="text-3xl font-black text-white mb-10">Featured Projects</h2>
+                <div class="grid md:grid-cols-2 gap-10">
                     <div class="group cursor-pointer" onclick="openModal('video_1.mp4', 'horizontal')" data-aos="fade-right">
-                        <div class="relative aspect-video overflow-hidden rounded-2xl">
-                            <img src="v1t.png" class="w-full h-full object-cover group-hover:scale-105 transition" onerror="this.src='https://placehold.co/600x338?text=Project+1'">
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/50 transition">
-                                <i data-lucide="play" class="w-16 h-16 text-white fill-white"></i>
-                            </div>
+                        <div class="relative aspect-video overflow-hidden rounded-3xl border border-slate-700">
+                            <img src="v1t.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x338/1e293b/fff?text=GMIU+Project'">
+                            <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"><i data-lucide="play" class="w-20 h-20 text-white fill-white"></i></div>
                         </div>
-                        <h3 class="mt-4 text-xl font-bold text-white">Gyanmanjari Innovative University</h3>
+                        <h3 class="mt-6 text-xl font-bold text-white">Gyanmanjari Innovative University</h3>
                     </div>
-
                     <div class="group cursor-pointer" onclick="openModal('video_2.mp4', 'horizontal')" data-aos="fade-left">
-                        <div class="relative aspect-video overflow-hidden rounded-2xl">
-                            <img src="v2t.png" class="w-full h-full object-cover group-hover:scale-105 transition" onerror="this.src='https://placehold.co/600x338?text=Project+2'">
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/50 transition">
-                                <i data-lucide="play" class="w-16 h-16 text-white fill-white"></i>
-                            </div>
+                        <div class="relative aspect-video overflow-hidden rounded-3xl border border-slate-700">
+                            <img src="v2t.png" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x338/1e293b/fff?text=Vastu+Project'">
+                            <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"><i data-lucide="play" class="w-20 h-20 text-white fill-white"></i></div>
                         </div>
-                        <h3 class="mt-4 text-xl font-bold text-white">Vastu Poojan Highlight</h3>
+                        <h3 class="mt-6 text-xl font-bold text-white">Vastu Poojan Highlight</h3>
                     </div>
-
                 </div>
             </div>
         </section>
     </main>
 
-    <div id="video-modal" class="fixed inset-0 z-[100] hidden bg-black/95 flex items-center justify-center p-4">
-        <button onclick="closeModal()" class="absolute top-6 right-6 text-white bg-slate-800 p-2 rounded-full"><i data-lucide="x"></i></button>
-        <div id="modal-container" class="w-full">
-            <video id="video-player" class="w-full h-auto rounded-xl" controls autoplay playsinline></video>
+    <footer class="bg-slate-950 py-12 border-t border-slate-900">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-black text-white mb-4">MAYUREDITTZ</h2>
+            <div class="flex justify-center space-x-6 mb-8 text-slate-500">
+                <a href="https://www.instagram.com/mayur_edittz" class="hover:text-white transition"><i data-lucide="instagram"></i></a>
+                <a href="#" class="hover:text-white transition"><i data-lucide="youtube"></i></a>
+                <a href="#" class="hover:text-white transition"><i data-lucide="linkedin"></i></a>
+            </div>
+            <p class="text-slate-600 text-sm">© 2026 Mayuredittz. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div id="video-modal" class="fixed inset-0 z-[100] hidden bg-black/95 flex items-center justify-center p-4 backdrop-blur-sm">
+        <button onclick="closeModal()" class="absolute top-6 right-6 text-white bg-slate-800 p-2 rounded-full hover:bg-red-500 transition"><i data-lucide="x"></i></button>
+        <div id="modal-container" class="w-full shadow-2xl">
+            <video id="video-player" class="w-full h-auto rounded-2xl" controls autoplay playsinline></video>
         </div>
     </div>
 
@@ -142,8 +140,7 @@
 
         function openModal(src, type) {
             player.src = src;
-            // Vertical reels ke liye container chhota rakha hai
-            container.className = type === 'vertical' ? 'max-w-[320px]' : 'max-w-4xl';
+            container.className = type === 'vertical' ? 'max-w-[340px]' : 'max-w-5xl';
             modal.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
             player.play();
@@ -156,10 +153,9 @@
             document.body.style.overflow = 'auto';
         }
 
-        // Close on ESC key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeModal();
-        });
+        window.onclick = function(event) {
+            if (event.target == modal) closeModal();
+        }
     </script>
 </body>
 </html>
