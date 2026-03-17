@@ -3,173 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayuredittz | Videographer & Editor</title>
+    <title>Mayur Baraiya | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #0f172a; }
-        .hero-bg {
-            background-color: #0f172a;
-            background-image: radial-gradient(circle at 2px 2px, #1e293b 1px, transparent 0);
-            background-size: 30px 30px;
-        }
-        .nav-glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); }
-        .gradient-text {
-            background: linear-gradient(to right, #818cf8, #c084fc);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .btn-gradient {
-            background: linear-gradient(to right, #4f46e5, #9333ea);
-            transition: all 0.3s ease;
-        }
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #e2e8f0; }
+        .hero-bg { background-image: radial-gradient(circle at 2px 2px, #1e293b 1px, transparent 0); background-size: 30px 30px; }
+        .btn-gradient { background: linear-gradient(to right, #4f46e5, #9333ea); transition: all 0.3s ease; }
         .btn-gradient:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -5px rgba(147, 51, 234, 0.5); }
     </style>
 </head>
-<body class="text-slate-200">
+<body>
 
-    <header id="header" class="nav-glass fixed top-0 left-0 right-0 z-50 border-b border-slate-800">
+    <header class="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-black text-white">MB<span class="text-indigo-500">.</span></a>
-            <nav class="hidden md:flex space-x-10 items-center font-medium">
-                <a href="#work" class="hover:text-indigo-400 transition">Work</a>
-                <a href="#thumbnails" class="hover:text-indigo-400 transition">Thumbnails</a>
-                <a href="#services" class="hover:text-indigo-400 transition">Services</a>
-                <a href="#contact" class="btn-gradient text-white px-5 py-2 rounded-full text-sm">Let's Talk</a>
+            <nav class="hidden md:flex space-x-8 items-center font-medium">
+                <a href="#work" class="hover:text-indigo-400">Work</a>
+                <a href="#thumbnails" class="hover:text-indigo-400">Thumbnails</a>
+                <a href="#contact" class="btn-gradient px-5 py-2 rounded-full text-white text-sm">Let's Talk</a>
             </nav>
-            <button id="mobile-menu-btn" class="md:hidden text-white"><i data-lucide="menu"></i></button>
-        </div>
-        <div id="mobile-menu" class="hidden bg-slate-900 border-b border-slate-800">
-            <a href="#work" class="block py-4 px-6 border-b border-slate-800">Work</a>
-            <a href="#thumbnails" class="block py-4 px-6 border-b border-slate-800">Thumbnails</a>
-            <a href="#contact" class="block py-4 px-6 text-indigo-400">Contact Me</a>
         </div>
     </header>
 
-    <main>
-        <section class="hero-bg min-h-screen flex items-center pt-20">
-            <div class="container mx-auto px-6 text-center" data-aos="zoom-out" data-aos-duration="1000">
-                <span class="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-indigo-400 uppercase bg-indigo-400/10 rounded-full">Available for Freelance</span>
-                <h1 class="text-5xl md:text-8xl font-black text-white mb-6 leading-none">
-                    Creating <span class="gradient-text">Visual</span><br>Masterpieces.
-                </h1>
-                <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-                    Bhavnagar based Videographer & Editor. Making brands stand out with high-end promotional videos and viral social content.
-                </p>
-                <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="#work" class="btn-gradient px-10 py-4 rounded-xl font-bold text-white text-lg">My Portfolio</a>
-                    <a href="#contact" class="bg-slate-800 hover:bg-slate-700 px-10 py-4 rounded-xl font-bold text-white text-lg transition">Contact</a>
-                </div>
-            </div>
+    <main class="pt-20">
+        <section class="hero-bg py-20 text-center" data-aos="zoom-in">
+            <h1 class="text-5xl md:text-7xl font-black text-white mb-6">Capturing <span class="text-indigo-500">Stories.</span></h1>
+            <p class="text-slate-400 max-w-xl mx-auto mb-8">Professional Videographer & Editor specialized in high-impact social media content.</p>
+            <a href="#work" class="btn-gradient px-8 py-3 rounded-lg font-bold text-white">View My Work</a>
         </section>
 
-        <section id="work" class="py-24 bg-slate-950">
+        <section id="work" class="py-20 bg-slate-950">
             <div class="container mx-auto px-6">
-                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4" data-aos="fade-up">
-                    <div>
-                        <h2 class="text-4xl font-black text-white">Selected Reels</h2>
-                        <p class="text-slate-500 mt-2">Vertical content optimized for Instagram & TikTok</p>
-                    </div>
-                    <div class="h-1 w-24 bg-indigo-600 hidden md:block"></div>
-                </div>
-                
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
-                    <div class="group cursor-pointer" data-aos="fade-up" data-aos-delay="100" onclick="openModal('reel_1.mp4', 'vertical')">
-                        <div class="relative aspect-[9/16] overflow-hidden rounded-2xl bg-slate-800">
-                            <img src="reel_1_thumbnail.png" alt="Reel" class="w-full h-full object-cover transition duration-500 group-hover:scale-110 group-hover:rotate-2">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                                <div class="bg-white/20 p-4 rounded-full backdrop-blur-md"><i data-lucide="play" class="fill-white text-white"></i></div>
+                <h2 class="text-3xl font-black text-white mb-10 text-center">Selected Reels</h2>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+                    
+                    <div class="group cursor-pointer" onclick="openModal('reel_1.mp4', 'vertical')" data-aos="fade-up">
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
+                            <img src="reel_1_thumbnail.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+1'">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
+                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
                             </div>
                         </div>
-                        <h3 class="mt-4 font-bold text-white group-hover:text-indigo-400 transition">Promotional Reel</h3>
-                        <p class="text-sm text-slate-500">Shubhlaxmi Jewellers</p>
+                        <p class="mt-3 text-sm font-bold text-white text-center">Shubhlaxmi Jewellers</p>
                     </div>
+
+                    <div class="group cursor-pointer" onclick="openModal('reel_2.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="100">
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
+                            <img src="reel_2_thumbnail.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+2'">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
+                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
+                            </div>
+                        </div>
+                        <p class="mt-3 text-sm font-bold text-white text-center">M.D. Jewellers</p>
                     </div>
+
+                    <div class="group cursor-pointer" onclick="openModal('reel_3.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="200">
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
+                            <img src="reel_3_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+3'">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
+                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
+                            </div>
+                        </div>
+                        <p class="mt-3 text-sm font-bold text-white text-center">Wedding Highlight</p>
+                    </div>
+
+                    <div class="group cursor-pointer" onclick="openModal('reel_4.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="300">
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
+                            <img src="reel_4_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+4'">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
+                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
+                            </div>
+                        </div>
+                        <p class="mt-3 text-sm font-bold text-white text-center">Car Delivery</p>
+                    </div>
+
+                    <div class="group cursor-pointer" onclick="openModal('reel_5.mp4', 'vertical')" data-aos="fade-up" data-aos-delay="400">
+                        <div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-slate-800">
+                            <img src="reel_5_t.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/400x711?text=Reel+5'">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
+                                <i data-lucide="play-circle" class="w-12 h-12 text-white"></i>
+                            </div>
+                        </div>
+                        <p class="mt-3 text-sm font-bold text-white text-center">Event Highlights</p>
+                    </div>
+
+                </div>
             </div>
         </section>
 
-        <section class="py-20 bg-indigo-600">
-            <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
-                <div data-aos="fade-up">
-                    <div class="text-4xl font-black mb-2">50+</div>
-                    <div class="text-indigo-200 text-sm uppercase tracking-widest">Projects Done</div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="100">
-                    <div class="text-4xl font-black mb-2">10+</div>
-                    <div class="text-indigo-200 text-sm uppercase tracking-widest">Local Brands</div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-4xl font-black mb-2">4+</div>
-                    <div class="text-indigo-200 text-sm uppercase tracking-widest">Influencers</div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="300">
-                    <div class="text-4xl font-black mb-2">100%</div>
-                    <div class="text-indigo-200 text-sm uppercase tracking-widest">Dedication</div>
-                </div>
-            </div>
-        </section>
-
-        <section id="services" class="py-24 bg-slate-900">
+        <section class="py-20 bg-slate-900">
             <div class="container mx-auto px-6">
-                <div class="text-center mb-16" data-aos="fade-up">
-                    <h2 class="text-4xl font-black text-white">Expertise</h2>
-                    <div class="w-16 h-1 bg-indigo-500 mx-auto mt-4"></div>
-                </div>
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div class="p-10 bg-slate-800/50 border border-slate-700 rounded-3xl hover:border-indigo-500 transition" data-aos="fade-right">
-                        <i data-lucide="camera" class="w-12 h-12 text-indigo-400 mb-6"></i>
-                        <h3 class="text-xl font-bold mb-4">Direction & Shoot</h3>
-                        <p class="text-slate-400 leading-relaxed">Fashion films, jewelry products, and cinematic event coverage with professional gear.</p>
+                <h2 class="text-3xl font-black text-white mb-10 text-center">Featured Projects</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    
+                    <div class="group cursor-pointer" onclick="openModal('video_1.mp4', 'horizontal')" data-aos="fade-right">
+                        <div class="relative aspect-video overflow-hidden rounded-2xl">
+                            <img src="v1t.png" class="w-full h-full object-cover group-hover:scale-105 transition" onerror="this.src='https://placehold.co/600x338?text=Project+1'">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/50 transition">
+                                <i data-lucide="play" class="w-16 h-16 text-white fill-white"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-4 text-xl font-bold text-white">Gyanmanjari Innovative University</h3>
                     </div>
-                    <div class="p-10 bg-slate-800/50 border border-slate-700 rounded-3xl hover:border-indigo-500 transition" data-aos="fade-up">
-                        <i data-lucide="layers" class="w-12 h-12 text-purple-400 mb-6"></i>
-                        <h3 class="text-xl font-bold mb-4">Post-Production</h3>
-                        <p class="text-slate-400 leading-relaxed">High-end editing in After Effects & CapCut. Color grading that sets the mood for your story.</p>
+
+                    <div class="group cursor-pointer" onclick="openModal('video_2.mp4', 'horizontal')" data-aos="fade-left">
+                        <div class="relative aspect-video overflow-hidden rounded-2xl">
+                            <img src="v2t.png" class="w-full h-full object-cover group-hover:scale-105 transition" onerror="this.src='https://placehold.co/600x338?text=Project+2'">
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/50 transition">
+                                <i data-lucide="play" class="w-16 h-16 text-white fill-white"></i>
+                            </div>
+                        </div>
+                        <h3 class="mt-4 text-xl font-bold text-white">Vastu Poojan Highlight</h3>
                     </div>
-                    <div class="p-10 bg-slate-800/50 border border-slate-700 rounded-3xl hover:border-indigo-500 transition" data-aos="fade-left">
-                        <i data-lucide="trending-up" class="w-12 h-12 text-pink-400 mb-6"></i>
-                        <h3 class="text-xl font-bold mb-4">Social Growth</h3>
-                        <p class="text-slate-400 leading-relaxed">Strategy-driven content creation specifically designed to boost your Instagram engagement.</p>
-                    </div>
+
                 </div>
             </div>
         </section>
-
     </main>
 
     <div id="video-modal" class="fixed inset-0 z-[100] hidden bg-black/95 flex items-center justify-center p-4">
-        <button onclick="closeModal()" class="absolute top-6 right-6 text-white p-2 bg-slate-800 rounded-full"><i data-lucide="x"></i></button>
-        <div id="modal-container" class="w-full max-w-4xl">
-            <video id="video-player" class="w-full h-auto rounded-xl shadow-2xl" controls autoplay></video>
+        <button onclick="closeModal()" class="absolute top-6 right-6 text-white bg-slate-800 p-2 rounded-full"><i data-lucide="x"></i></button>
+        <div id="modal-container" class="w-full">
+            <video id="video-player" class="w-full h-auto rounded-xl" controls autoplay playsinline></video>
         </div>
     </div>
 
     <script>
-        // Init Plugins
         lucide.createIcons();
-        AOS.init({ once: true, duration: 800 });
+        AOS.init({ once: true });
 
-        // Mobile Menu
-        const btn = document.getElementById('mobile-menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
-
-        // Modal Logic
         const modal = document.getElementById('video-modal');
         const player = document.getElementById('video-player');
         const container = document.getElementById('modal-container');
 
         function openModal(src, type) {
             player.src = src;
-            container.className = type === 'vertical' ? 'max-w-xs' : 'max-w-4xl';
+            // Vertical reels ke liye container chhota rakha hai
+            container.className = type === 'vertical' ? 'max-w-[320px]' : 'max-w-4xl';
             modal.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
+            player.play();
         }
 
         function closeModal() {
@@ -178,6 +155,11 @@
             player.src = "";
             document.body.style.overflow = 'auto';
         }
+
+        // Close on ESC key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
     </script>
 </body>
 </html>
